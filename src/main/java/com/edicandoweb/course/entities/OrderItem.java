@@ -21,6 +21,7 @@ public class OrderItem implements Serializable{
 	private Integer quantity;
 	private Double price;
 	
+	
 	public OrderItem() {
 	}
 
@@ -65,6 +66,7 @@ public class OrderItem implements Serializable{
 	public void setProduct(Product product) {
 		id.setProduct(product);
 	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
